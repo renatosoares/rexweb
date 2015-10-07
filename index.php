@@ -186,7 +186,7 @@
 			<ul class="list-inline social-buttons">
 				<li><a href="https://twitter.com/renatosoarespro"><i class="fa fa-twitter"></i></a></li>
 				<li><a href="http://github.com/renatosoares"><i class="fa fa-github-alt"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://br.linkedin.com/in/renatosoarespro"><i class="fa fa-linkedin"></i></a></li>
 			</ul>
 		</div>
 	</div>
