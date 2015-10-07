@@ -103,10 +103,10 @@
 
 <div class="container">
 
-	<div class="row text-center">
+<!-- 	<div class="row text-center">
 		<div class="col-md-12">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Link ads 728 x 15 -->
+			<!-- Link ads 728 x 15 ->
 			<ins class="adsbygoogle"
 				 style="display:inline-block;width:728px;height:15px"
 				 data-ad-client="ca-pub-0399664117018381"
@@ -115,7 +115,7 @@
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>        
 		</div>
-	</div>
+	</div> -->
 	
 	<div class="row wow fadeInUp animated animated" style="visibility: visible;">
 	
@@ -123,17 +123,18 @@
 			<!-- Price Table Item -->
 			<div class="price-table text-center">
 				<div class="price-table-heading">
-					<h4 class="title">FREE PLAN - A</h4>
+					<h4 class="title">SITES</h4>
 				</div>
 				<div class="price-table-body">
-					<p class="value">$0<small>/month</small></p>
+					<p><small>A partir  </small></p>
+					<p class="value"> <small>R$ </small> 400</p>
 				</div>
 				<ul class="list-group">
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Vitrine Loja</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Domínio e Hospedagem</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> 4 páginas</li>
 				</ul>
-				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">BUY NOW!</a> </div>
+				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">SOLICITE AGORA!</a> </div>
 			</div>
 			<!-- END Price Table Item -->
 		
@@ -146,17 +147,18 @@
 			<!-- Price Table Item -->
 			<div class="price-table text-center">
 				<div class="price-table-heading">
-					<h4 class="title">FREE PLAN - A</h4>
+					<h4 class="title">CORPORATIVOS</h4>
 				</div>
 				<div class="price-table-body">
-					<p class="value">$25<small>/month</small></p>
+					<p><small>A partir  </small></p>
+					<p class="value"><small>R$ </small> 940</p>
 				</div>
 				<ul class="list-group">
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Sistema</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Gerência</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Treinamento</li>
 				</ul>
-				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">BUY NOW!</a> </div>
+				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">SOLICITE AGORA!</a> </div>
 			</div>
 			<!-- END Price Table Item -->
 		
@@ -169,17 +171,18 @@
 			<!-- Price Table Item -->
 			<div class="price-table text-center">
 				<div class="price-table-heading">
-					<h4 class="title">FREE PLAN - A</h4>
+					<h4 class="title">MOBILE</h4>
 				</div>
 				<div class="price-table-body">
-					<p class="value">$50<small>/month</small></p>
+					<p><small>A partir  </small></p>
+					<p class="value"> <small>R$ </small> 630</p>
 				</div>
 				<ul class="list-group">
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> IPhone</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Android</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Windows</li>
 				</ul>
-				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">BUY NOW!</a> </div>
+				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">SOLICITE AGORA!</a> </div>
 			</div>
 			<!-- END Price Table Item -->
 		
@@ -192,17 +195,18 @@
 			<!-- Price Table Item -->
 			<div class="price-table text-center">
 				<div class="price-table-heading">
-					<h4 class="title">FREE PLAN - A</h4>
+					<h4 class="title">E-COMMERCE</h4>
 				</div>
 				<div class="price-table-body">
-					<p class="value">$100<small>/month</small></p>
+					<p><small>A partir  </small></p>
+					<p class="value"> <small>R$ </small> 750</p>
 				</div>
 				<ul class="list-group">
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-					<li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Transações Financeiras</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Lojas Virtuais</li>
+					<li class="list-group-item"><i class="icon-ok text-success"></i> Segurança</li>
 				</ul>
-				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">BUY NOW!</a> </div>
+				<div class="price-table-footer"> <a class="btn btn-lg btn-success" href="#">SOLICITE AGORA!</a> </div>
 			</div>
 			<!-- END Price Table Item -->
 		
