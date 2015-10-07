@@ -147,8 +147,14 @@
 			<div class="team boxed-grey">
 				<div class="inner">
 					<h5>Italo Berg</h5>
-					<p class="subtitle">Pixel Crafter</p>
+					<p class="subtitle">Back end</p>
 					<div class="avatar"><img src="img/team/italo-berg-pb.jpg" alt="" class="img-responsive img-circle" /></div>
+					<ul class="list-inline social-buttons">
+						<li><a href="http://plus.google.com/+ItaloBergReis"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="http://github.com/iceberg20"><i class="fa fa-github-alt"></i></a></li>
+				
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -158,9 +164,14 @@
 			<div class="team boxed-grey">
 				<div class="inner">
 					<h5>Julian Sansat</h5>
-					<p class="subtitle">Ruby on Rails</p>
+					<p class="subtitle">Back end</p>
 					<div class="avatar"><img src="img/team/julian-sansat-pb.jpg" alt="" class="img-responsive img-circle" /></div>
-
+					<ul class="list-inline social-buttons">
+					
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://github.com/JulianSansat"><i class="fa fa-github-alt"></i></a></li>
+						<li><a href="http://www.linkedin.com/in/juliansansat"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -170,9 +181,13 @@
 		<div class="team boxed-grey">
 		  <div class="inner">
 			<h5>Renato Soares</h5>
-			<p class="subtitle">jQuery Ninja</p>
+			<p class="subtitle">Front end</p>
 			<div class="avatar"><img src="img/team/renato-soares.jpg" alt="" class="img-responsive img-circle" /></div>
-
+			<ul class="list-inline social-buttons">
+				<li><a href="https://twitter.com/renatosoarespro"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="http://github.com/renatosoares"><i class="fa fa-github-alt"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
 		</div>
 	</div>
 </div>
