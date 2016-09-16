@@ -1,11 +1,11 @@
 <?php  require_once 'head.php'; ?>
-<body>
+
 
 <!-- Header -->
-<?php require_once 'header.php'; ?>
+<?php require_once 'nav.php'; ?>
 
 <!-- Banner -->
-<div id="slider1_container" style="height:760px; width:1920px; max-height:100%;"> 
+<div id="slider1_container" style="height:760px; width:1920px; max-height:100%;">
 	<!-- Loading Screen -->
 	<div u="loading" style="position: absolute; top: 0px; left: 0px;">
 		<div style="position: absolute; display: block; background:#fcfcfc; top: 0px; left: 0px; width: 100%; height: 760px; text-align:center;"> <img src="img/loading.gif" style=" margin-top:18%;"> </div>
@@ -18,9 +18,9 @@
 				<h1 class="black">Site e blog interativo</h1>
 			</div>
 			<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="100" style="left:238px; top:365px; text-align:left;">
-				<h4>Um ótimo site é sobre a forma como o usuário interage e navega através do site. Com aplicativo web personalizado, app móvel, e de comércio eletrônico.</h4> 
+				<h4>Um ótimo site é sobre a forma como o usuário interage e navega através do site. Com aplicativo web personalizado, app móvel, e de comércio eletrônico.</h4>
 			</div>
-			<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="110" style="left:250px; top:475px; text-align:left;" > 
+			<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="110" style="left:250px; top:475px; text-align:left;" >
 				<a class="btn btn-lg" href="dev.html">+ Serviços</a></div>
 			</div>
 
@@ -31,7 +31,7 @@
 				<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="100" style="left:238px; top:365px; text-align:left;">
 					<h4>Obter um site personalizado com um único olhar que reflete a<br/> importancia de sua organização.</h4>
 				</div>
-				<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="110" style="left:250px; top:475px; text-align:left;" > 
+				<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="110" style="left:250px; top:475px; text-align:left;" >
 					<a class="btn btn-lg" href="dev.html">+ Serviços</a></div>
 				</div>
 
@@ -42,22 +42,22 @@
 					<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="100" style="left:238px; top:365px; text-align:left;">
 						<h4>Nossos sistemas são personalizados de acordo com sua nessecidade  <br/>e amazenados na nuvem para sua mobilidade e segurança.</h4>
 					</div>
-					<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="110" style="left:250px; top:475px; text-align:left;" > 
+					<div class="caption-txt"  u="caption" t="FADEIN|LF"   du="300" d="110" style="left:250px; top:475px; text-align:left;" >
 						<a class="btn btn-lg" href="dev.html">+ Serviços</a></div>
 					</div>
 
 				</div>
 				<!-- bullet navigator container -->
-				<div u="navigator" class="jssorb01"> 
+				<div u="navigator" class="jssorb01">
 					<!-- bullet navigator item prototype -->
 					<div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
 				</div>
-				<!-- Bullet Navigator Skin End --> 
+				<!-- Bullet Navigator Skin End -->
 
-				<!-- Arrow --> 
+				<!-- Arrow -->
 				<span u="arrowleft" class="jssora21l"  style="width: 35px; height: 45px; left:18px;"></span> <span u="arrowright" class="jssora21r" style="width: 35px; height: 45px; right:18px;"></span>
 			</div>
-  
+
 <!-- Section 1  |  Web Development-->
 <section id="section1" class=" bg-grayL">
 	<div class="container relative">
@@ -88,30 +88,30 @@
 
 		</div>
 </section>
-   
+
 <!-- Shape 1 -->
 <div class="shapeTri"></div>
 <div class="clear P40"></div>
-  
+
 <!-- Section 2 |  Apps Development -->
 <section id="section1" class="">
 	<div class="container">
 
 		<div class="col-sm-6 p-t-20  wow fadeInLeft animated"> <img src="img/home/img2.png" class="img-responsive"/> </div>
-		
+
 		<div class="col-sm-6 well-lg  wow  fadeInRight animated">
 			<h3 class="M0 p-t-30">Desenvolvimento app mobile</h3>
 			<div class="clear p-t-20" style="border-bottom:1px solid #ccc; width:100px;"></div>
 			<p class="text-gray-dark font14 m-t-35 m-b-15">
-				
+
 				Nós consultar com você desde a concepção até a implantação para
 				garantir que o fim produto está em linha com suas expectativas. Nós
 				nos concentramos nas necessidades de seus usuários para garantir que
 				sua experiência será excepcional e ainda ficar em linha com os seus
 				objectivos de negócio.
-				
-			</p> 
-			<a href="dev.html" class="btn btn-primary m-t-10">+ Serviços</a> 
+
+			</p>
+			<a href="dev.html" class="btn btn-primary m-t-10">+ Serviços</a>
 		</div>
 
 	</div>
@@ -152,7 +152,7 @@
 					<ul class="list-inline social-buttons">
 						<li><a href="http://plus.google.com/+ItaloBergReis"><i class="fa fa-google-plus"></i></a></li>
 						<li><a href="http://github.com/iceberg20"><i class="fa fa-github-alt"></i></a></li>
-				
+
 						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
@@ -167,7 +167,7 @@
 					<p class="subtitle">Back end</p>
 					<div class="avatar"><img src="img/team/julian-sansat-pb.jpg" alt="" class="img-responsive img-circle" /></div>
 					<ul class="list-inline social-buttons">
-					
+
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="http://github.com/JulianSansat"><i class="fa fa-github-alt"></i></a></li>
 						<li><a href="http://www.linkedin.com/in/juliansansat"><i class="fa fa-linkedin"></i></a></li>
@@ -193,18 +193,18 @@
 </div>
 </div>
 
-</div>    
+</div>
 </div>
 </section>
   <!-- /Section: about -->
 
-  
+
 <div class="clear P10 lineB container"></div>
-<div class="" style=" padding-bottom:100px;"></div> 
+<div class="" style=" padding-bottom:100px;"></div>
 <!-- Shape 1 -->
 <div class="shapeTri2"></div>
-<!-- Form -->  
-<section class="bg-grayL relative"> 
+<!-- Form -->
+<section class="bg-grayL relative">
 	<div class="container text-center P30  wow fadeInDown ">
 
 		<div class="col-sm-2"></div>
@@ -220,5 +220,5 @@
 		<div class="clear"></div>
 	</div>
 </section>
-<!-- Footer -->  
+<!-- Footer -->
 <?php require_once 'footer.php'; ?>

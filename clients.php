@@ -1,8 +1,8 @@
 <?php  require_once 'head.php'; ?>
-<body>
+
 
 <!-- Header -->
-<?php require_once 'header.php'; ?>
+<?php require_once 'nav.php'; ?>
 
 <div class="clear"></div>
 <div style="margin-top:-90px">
