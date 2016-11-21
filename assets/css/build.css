@@ -1,0 +1,19 @@
+/* ----------------- navbar -----------------------*/
+
+nav.navbar-custom{
+    height: 90px;
+    padding:19px 0;
+    background-color: rgba(255, 255, 255, 0.62);
+}
+/* FIXME personalizando menu*/
+
+/* ----------------- main-----------------------*/
+
+
+
+/* ----------------- footer -----------------------*/
+footer.footer{
+    height: 100px;
+    padding: 21px;
+    background-color: #222;
+}
