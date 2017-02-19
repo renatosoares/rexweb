@@ -1,0 +1,23 @@
+{
+  "name": "rexweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatosoares/rexweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatosoares/rexweb/issues"
+  },
+  "homepage": "https://github.com/renatosoares/rexweb#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}
