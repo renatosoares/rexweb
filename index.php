@@ -165,7 +165,7 @@
 
             <div class="form-group">
               <div class="col-md-10 col-md-offset-2">
-                <button type="button" class="btn btn-default">Cancel</button>
+                <button type="button" class="btn btn-default">Cancelar</button>
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </div>
@@ -189,7 +189,7 @@
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Copyright © 2016 rexweb.com.br todos direitos reservados bla bla</p>
+        <p class="text-muted">Copyright © 2017 REXTECH todos direitos reservados</p>
       </div>
     </footer>
 
