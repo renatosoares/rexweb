@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -145,10 +145,9 @@
         </article>
 
       </section>
-<hr>
+
       <section class="row" id="contact">
-        <form id="email_form" method="post" class="form-horizontal">
-          <fieldset>
+        <article>
             <legend>Solicitar Mais Informações</legend>
             <div class="form-group label-floating">
               <label class="control-label" for="name">Nome</label>
@@ -161,10 +160,7 @@
 
             <div class="form-group label-floating">
               <label class="control-label" for="message" >Deixe seu comentário</label>
-
-
                 <textarea class="form-control" rows="3" name="message" id="message" data-validation="required"></textarea>
-
             </div>
 
             <div class="form-group">
@@ -173,10 +169,9 @@
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </div>
-
-
           </fieldset>
         </form>
+      </article>
       </section>
       <section id="loadingGif" class="row" style="display:none">
           <img src="assets/img/loading1.gif" id="sendingImg" class="img-responsive center-block"/ >
