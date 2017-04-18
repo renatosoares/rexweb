@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head name="viewport" content="width=device-width, initial-scale=1">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +32,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,10 +44,13 @@
           <a class="navbar-brand" href="#">RexTech</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav pull-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#contact">Contato</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="hidden-xs">Home</a></li>
+            <li><a href="#" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Home</a></li>
+            <li><a href="#about" class="hidden-xs">Sobre</a></li>
+            <li><a href="#about" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Sobre</a></li>
+            <li><a href="#contact" class="hidden-xs">Contato</a></li>
+            <li><a href="#contact" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Contato</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -164,9 +167,10 @@
             </div>
 
             <div class="form-group">
-              <div class="col-md-10 col-md-offset-2">
-                <button type="button" class="btn btn-default">Cancelar</button>
+              <div class="row">
+                <div class="col-md-2 col-md-offset-5">
                 <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
               </div>
             </div>
           </fieldset>
