@@ -46,10 +46,10 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
@@ -80,8 +80,8 @@
           <img class="first-slide" src="assets/img/banner01.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Site e blog interativo</h1>
-              <p>Um ótimo site é sobre a forma como o usuário interage e navega através do site. Com aplicativo web personalizado, app móvel, e de comércio eletrônico.</p>
+              <h1>Soluções personalizadas</h1>
+              <p>Oferecemos software projetado específicamente para a necessidade do seu negócio.<br /> Uma solução eficiênte e de fácil utilização.</p>
               <p><a class="btn btn-lg btn-default" href="#" role="button">+ Serviços</a></p>
             </div>
           </div>
@@ -90,8 +90,8 @@
           <img class="second-slide" src="assets/img/banner02.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Web Design personalizado</h1>
-              <p>Obter um site personalizado com um único olhar que reflete a<br/> importancia de sua organização.</p>
+              <h1>Inovação</h1>
+              <p>Na RexTech estamos sempre antenados nas novas tendências tecnológicas<br /> Oferecemos soluções com tecnologias atuais aos nossos clientes.</p>
               <p><a class="btn btn-lg btn-default" href="#" role="button">+ Serviços</a></p>
             </div>
           </div>
@@ -101,7 +101,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Sistemas corporativos</h1>
-              <p>Nossos sistemas são personalizados de acordo com sua nessecidade  <br/>e amazenados na nuvem para sua mobilidade e segurança.</p>
+              <p>Sistemas com foco na segurança e integridade dos dados da sua empresa.<br />Uma Solução robusta que mantém a simplicidade na utilização</p>
               <p><a class="btn btn-lg btn-default" href="#" role="button">+ Serviços</a></p>
             </div>
           </div>
@@ -121,9 +121,9 @@
       <!-- primeiro bloco  -->
       <section class="row">
         <article class="col-sm-4">
-          <h2>Web responsivo</h2>
+          <h2>Sistemas web responsivos</h2>
           <p>
-            REXWEB tem sido um parceiro inovador para agências de marketing e soluções provedor desde 1999. Através de nossos parceiros podemos atender a uma ampla raiva de clientes em todo o mundo com serviços de desenvolvimento de aplicativos móveis e web personalizado, bem como produtos de marketing online.
+            Seu novo sistema será acessível por qualquer disposítivo com acesso à internet. O layout cuidadosamente desenvolvido de maneira responsiva irá atender as diferentes resoluções de tela atualmente utilizadas por computadores desktop, notebooks, smartphones e tablets.
           </p>
           <button class="btn btn-primary">+ Serviços</button>
         </article>
@@ -137,46 +137,52 @@
           <img src="assets/img/img2.png" class="img-responsive">
         </article>
         <article class="col-sm-4">
-          <h2>Desenvolvimento app mobile</h2>
+          <h2>Aplicativos mobile</h2>
           <p>
-            Nós consultar com você desde a concepção até a implantação para garantir que o fim produto está em linha com suas expectativas. Nós nos concentramos nas necessidades de seus usuários para garantir que sua experiência será excepcional e ainda ficar em linha com os seus objectivos de negócio.
+            Se o seu negócio demanda mais recursos além de um sistema acessível pelo navegador do celular, os aplicativos mobile oferecem a utilização dos recursos do celular tais como sistema de notificações, GPS, camera e etc. Na RexTech desenvolvemos aplicativos mobile para os sistemas mais utilizados, android e IOS.
           </p>
           <button class="btn btn-primary">+ Serviços</button>
         </article>
 
       </section>
 <hr>
-      <section >
-        <form class="form-horizontal">
+      <section class="row" id="contact">
+        <form id="email_form" method="post" class="form-horizontal">
           <fieldset>
             <legend>Solicitar Mais Informações</legend>
             <div class="form-group label-floating">
-              <label class="control-label" for="focusedInput1">Nome</label>
-              <input class="form-control" id="focusedInput1" type="text">
+              <label class="control-label" for="name">Nome</label>
+              <input class="form-control" name="name" id="name" type="text" data-validation="required" />
             </div>
             <div class="form-group label-floating">
-              <label class="control-label" for="focusedInput1">Email</label>
-              <input class="form-control" id="focusedInput2" type="text">
+              <label class="control-label" for="email">Email</label>
+              <input class="form-control" name="email" id="email" type="text" data-validation="email" />
             </div>
 
             <div class="form-group label-floating">
-              <label for="textArea" class="control-label">Deixe seu comentário</label>
+              <label class="control-label" for="message" >Deixe seu comentário</label>
 
 
-                <textarea class="form-control" rows="3" id="textArea"></textarea>
+                <textarea class="form-control" rows="3" name="message" id="message" data-validation="required"></textarea>
 
             </div>
 
             <div class="form-group">
               <div class="col-md-10 col-md-offset-2">
                 <button type="button" class="btn btn-default">Cancel</button>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
               </div>
             </div>
 
 
           </fieldset>
         </form>
+      </section>
+      <section id="loadingGif" class="row" style="display:none">
+          <img src="assets/img/loading1.gif" id="sendingImg" class="img-responsive center-block"/ >
+      </section>
+      <section id="sucessMessage" style="display:none">
+        <p class="text-center">Email enviado, Obrigado pelo contato</p>
       </section>
       <hr>
 
@@ -197,14 +203,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/jquery/jquery.min.js"></script>
-
+    <script src="assets/js/email_form.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- bootstrap material design-->
     <script src="assets/bootstrap-material/js/ripples.min.js"></script>
     <script src="assets/bootstrap-material/js/material.min.js"></script>
-
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 
   </body>
 </html>
