@@ -167,10 +167,8 @@
             </div>
 
             <div class="form-group">
-              <div class="row">
-                <div class="col-md-2 col-md-offset-5">
+              <div class="col-md-10 col-md-offset-2">
                 <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
               </div>
             </div>
           </fieldset>
