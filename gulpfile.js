@@ -6,38 +6,29 @@ var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
-var files = ['src/public_html/_assets/themes/mobilenew/scss/*.scss', 'src/public_html/_assets/themes/mobilenew/js/*.js', 'src/public_html/_assets/themes/default/scss/*.scss'];
+var files = ['assets/scss/*.scss', 'assets/js/*.js'];
 
-var input = 'src/public_html/_assets/themes/default/scss/custom.scss';
-var output = 'src/public_html/_assets/themes/default/css/';
+var inputStyles = 'assets/scss/build.scss';
+var outputStyles = 'assets/dist';
 
-var inputMobile = 'src/public_html/_assets/themes/mobilenew/scss/build.scss';
-var outputMobile = 'src/public_html/_assets/themes/mobilenew/buildcss';
+var jsFiles = 'assets/js/*.js',
+    jsDest = 'assets/dist';
 
-var jsFiles = 'src/public_html/_assets/themes/mobilenew/js/*.js',
-    jsDest = 'src/public_html/_assets/themes/mobilenew/buildjs';
-
-gulp.task('customscss', function () {
-    return gulp
-        .src(input)
-        .pipe(sass().on('error', sass.logError))
-        .pipe(minify({keepBreaks: false}))
-        .pipe(rename({ suffix: '.min'}))
-        .pipe(gulp.dest(output));
-});
 
 gulp.task('buildcss', function () {
     return gulp
-        .src(inputMobile)
+        .src(inputStyles)
         .pipe(sass().on('error', sass.logError))
         .pipe(minify({keepBreaks: false}))
         .pipe(rename({ suffix: '.min'}))
-        .pipe(gulp.dest(outputMobile));
+        .pipe(gulp.dest(outputStyles));
 });
 
 
 gulp.task('scripts', function() {
-    return gulp.src(jsFiles)
+    // return gulp.src(jsFiles)
+    return gulp
+        .src(jsFiles)
         .pipe(concat('build.min.js'))
         .pipe(gulp.dest(jsDest))
         .pipe(rename('build.min.js'))
@@ -47,5 +38,5 @@ gulp.task('scripts', function() {
 
 //Watch task
 gulp.task('default',function() {
-    gulp.watch(files,['buildcss', 'customscss', 'scripts']);
+    gulp.watch(files,['buildcss', 'scripts']);
 });

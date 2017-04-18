@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -11,27 +11,19 @@
 
     <title>RexTech Soluções Tecnologicas</title>
 
-    <!-- Material Design fonts -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
-
     <!-- Bootstrap core CSS -->
     <link href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="assets/bower_components/slick-carousel/slick/slick-theme.css">
+    <!--<link rel="stylesheet" type="text/css" href="assets/bower_components/bootstrap-material-design/dist/bootstrap-material-design.min.css">-->
 
-    <!-- Custom styles for this template -->
-    <link href="assets/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
-    <link href="assets/bootstrap/css/carousel.css" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap-material/css/bootstrap-material-design.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/bootstrap-material/css/ripples.min.css">
-
-    <link href="assets/css/build.css" rel="stylesheet">
+    <link href="assets/dist/build.min.css" rel="stylesheet">
 
   </head>
 
   <body>
 
-    <!-- Fixed navbar -->
+<!--    &lt;!&ndash; Fixed navbar &ndash;&gt;
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
       <div class="container">
         <div class="navbar-header">
@@ -61,15 +53,46 @@
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>&lt;!&ndash;/.nav-collapse &ndash;&gt;
       </div>
-    </nav>
+    </nav>-->
+
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Fixed navbar</a>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
 
+
+<!--slide-->
+<div class="slide-initial">
+  <div>your content 1</div>
+  <div>your content 2</div>
+  <div>your content 3</div>
+</div>
     <!-- Carousel
   ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+<!--    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      &lt;!&ndash; Indicators &ndash;&gt;
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -115,7 +138,7 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+    </div>&lt;!&ndash; /.carousel &ndash;&gt;-->
 
     <main class="container">
       <!-- primeiro bloco  -->
@@ -202,14 +225,16 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/jquery/jquery.min.js"></script>
-    <script src="assets/js/email_form.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/bower_components/tether/dist/js/tether.min.js"></script>
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/bower_components/slick-carousel/slick/slick.min.js"></script>
 
     <!-- bootstrap material design-->
-    <script src="assets/bootstrap-material/js/ripples.min.js"></script>
-    <script src="assets/bootstrap-material/js/material.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <!--<script src="assets/bower_components/bootstrap-material-design/dist/bootstrap-material-design.iife.min.js"></script>-->
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>-->
+
+    <script src="assets/dist/build.min.js"></script>
 
   </body>
 </html>

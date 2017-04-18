@@ -17,7 +17,8 @@
   ],
   "dependencies": {
     "jquery": "^3.1.1",
-    "bootstrap": "^3.3.7",
-    "bootstrap-material-design": "^4.0.2"
+    "bootstrap": "v4.0.0-alpha.6",
+    "bootstrap-material-design": "^4.0.2",
+    "slick-carousel": "^1.6.0"
   }
 }
