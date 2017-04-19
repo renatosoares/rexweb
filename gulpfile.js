@@ -14,7 +14,6 @@ var outputStyles = 'assets/dist';
 var jsFiles = 'assets/js/*.js',
     jsDest = 'assets/dist';
 
-
 gulp.task('buildcss', function () {
     return gulp
         .src(inputStyles)
@@ -23,7 +22,6 @@ gulp.task('buildcss', function () {
         .pipe(rename({ suffix: '.min'}))
         .pipe(gulp.dest(outputStyles));
 });
-
 
 gulp.task('scripts', function() {
     // return gulp.src(jsFiles)

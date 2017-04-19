@@ -1,0 +1,16 @@
+html{
+  position: relative;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  body{
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    margin-bottom: 60px;
+    a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}
