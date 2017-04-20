@@ -1,11 +1,13 @@
 html{
   position: relative;
   min-height: 100%;
-  font-family: 'Montserrat', sans-serif;
   body{
+    font-family: 'Montserrat', sans-serif;
     min-height: 75rem;
-    padding-top: 4.5rem;
+    padding-top: 78px;
     margin-bottom: 60px;
+    background-color: $color-silver-01;
+    color: $color-silver-02;
     a{
       text-decoration: none;
       &:hover{
