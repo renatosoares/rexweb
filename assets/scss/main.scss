@@ -1,6 +1,24 @@
 .main{
+  .content-info{
+    &:first-child{
+      padding-top: 70px;
+    }
+    &:last-child{
+      padding-bottom: 70px;
+    }
+  }
   .form-contact{
-
+    padding-top: 30px;
+    padding-bottom: 30px;
+    legend{
+      padding-bottom: 20px;
+    }
+    input{
+      background-color: #f7f7f7;
+    }
+    textarea{
+      background-color: #f7f7f7;
+    }
   }
 
 }
