@@ -1,10 +1,29 @@
 .slide-initial{
-  .slide-information{
-    position: relative;
-    top: -470px;
-    color: $color-silver-01;
-    h1{
-      font-weight: 100;
+  .slide-img{
+    max-height:560px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &[data-slick-index="0"]{
+      background-image: url("/assets/img/banner01.jpg");
     }
+    &[data-slick-index="1"]{
+      background-image: url("/assets/img/banner02.jpg");
+    }
+    &[data-slick-index="2"]{
+      background-image: url("/assets/img/banner11.jpg");
+    }
+    .slide-information{
+      margin-top: 180px;
+      margin-bottom: 180px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: $color-silver-01;
+      background-color: rgba(0, 0, 0, 0.58);;
+      .slide-title{
+        font-weight: 100;
+      }
+    }
+
   }
 }
