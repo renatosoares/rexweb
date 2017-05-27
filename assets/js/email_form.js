@@ -7,7 +7,7 @@ $("#email_form").submit(function(event){
 
   // Prevent default posting of form - put here to work in case of errors
   event.preventDefault();
-
+  
   // Abort any pending request
   if (request) {
       request.abort();

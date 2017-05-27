@@ -31,6 +31,7 @@
   // $email is the user's email address the specified
   // on our contact us page. We set this variable at
   // the top of this page with:
+
   // $email = $_REQUEST['email'] ;
   $mail->setFrom($email, $name);
 
