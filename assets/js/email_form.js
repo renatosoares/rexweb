@@ -28,14 +28,17 @@ $("#email_form").submit(function(event){
 
   // Fire off the request to /form.php
   request = $.ajax({
-      url: "email.php",
+      url: "../../email.php",
       type: "post",
       data: serializedData
   });
 
   //animação
-  $("#loadingGif").show();
-  $("#contact").hide();
+
+    $("#loadingGif").show();
+    $("#email_form").hide();
+
+
 
   // Callback handler that will be called on success
   request.done(function (response, textStatus, jqXHR){
@@ -45,7 +48,7 @@ $("#email_form").submit(function(event){
       setTimeout(function() {
         $("#sucessMessage").hide();
         $("#email_form")[0].reset();
-        $("#contact").show();
+        $("#email_form").show();
 
       }, 2000);
 

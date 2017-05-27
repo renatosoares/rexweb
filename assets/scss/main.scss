@@ -10,14 +10,22 @@
   .form-contact{
     padding-top: 30px;
     padding-bottom: 30px;
-    legend{
-      padding-bottom: 20px;
+    #sucessMessage{
+      display: none;
     }
-    input{
-      background-color: #f7f7f7;
+    .form-horizontal{
+      legend{
+        padding-bottom: 20px;
+      }
+      input{
+        background-color: #f7f7f7;
+      }
+      textarea{
+        background-color: #f7f7f7;
+      }
     }
-    textarea{
-      background-color: #f7f7f7;
+    #loadingGif{
+      display: none;
     }
   }
 

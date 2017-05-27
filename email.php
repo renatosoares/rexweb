@@ -7,7 +7,7 @@
 
   // When we unzipped PHPMailer, it unzipped to
   // public_html/PHPMailer_5.2.0
-  require("bower_components/PHPMailer/PHPMailerAutoload.php");
+  require("vendor/phpmailer/phpmailer/PHPMailerAutoload.php");
 
   $mail = new PHPMailer();
 
@@ -59,4 +59,4 @@
   }
 
   echo "Message has been sent";
-?>
+

@@ -1,6 +1,5 @@
-.idea
-node_modules
+.idea/
 assets/bower_components
-ex
-ex2
-index-bkp.html
+/node_modules/
+/vendor/
+composer.phar
